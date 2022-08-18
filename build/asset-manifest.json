@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.db0c58c6.css",
+    "main.js": "./static/js/main.c8c6c2d8.js",
+    "static/js/787.8d4efb73.chunk.js": "./static/js/787.8d4efb73.chunk.js",
+    "static/media/Ottawa_Sunset_2020_06_03_large_compressed_1440.jpg": "./static/media/Ottawa_Sunset_2020_06_03_large_compressed_1440.7cc2d6f1c61b74d2d83f.jpg",
+    "static/media/setup.jpg": "./static/media/setup.6a7d7f70c18d2c958b06.jpg",
+    "index.html": "./index.html",
+    "main.db0c58c6.css.map": "./static/css/main.db0c58c6.css.map",
+    "main.c8c6c2d8.js.map": "./static/js/main.c8c6c2d8.js.map",
+    "787.8d4efb73.chunk.js.map": "./static/js/787.8d4efb73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db0c58c6.css",
+    "static/js/main.c8c6c2d8.js"
+  ]
+}
