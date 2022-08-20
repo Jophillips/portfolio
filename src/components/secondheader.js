@@ -3,21 +3,21 @@ import ImageSetup from "../img/setup.jpg";
 function SecondHeader() {
   return (
     <div class="container my-24 px-6 mx-auto">
-      <section class="mb-32">
+      <section class="mb-32 bg-red-900 hover:bg-red-800 rounded-lg">
         <div class="flex flex-wrap">
-          <div class="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0">
-            <div class="flex lg:py-12">
+          <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 mb-2 lg:mb-0">
+            <div class="flex lg:py-12 z-10  p-6">
               <img
                 src={ImageSetup}
-                class="w-full rounded-lg shadow-lg"
+                class="w-full rounded-lg shadow-xl"
                 id="cta-img-nml-50"
                 alt="Setup"
               />
             </div>
           </div>
 
-          <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
-            <div class="bg-red-900 h-full rounded-lg p-6  text-white flex items-center text-center lg:text-left hover:bg-red-800">
+          <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12">
+            <div class="h-full  p-6  text-white flex items-center text-center lg:text-left ">
               <div class="pr-12 pl-12">
                 <h2 class="text-3xl font-bold mb-6">Who am I?</h2>
                 <p class="mb-6 pb-2 lg:pb-0">
