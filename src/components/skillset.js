@@ -11,7 +11,7 @@ function SkillSet() {
     "Version Control",
     "Video",
     "Web Administration",
-    "Other"
+    "Other",
   ];
   const SkillApplication = [
     "Audacity",
@@ -25,7 +25,7 @@ function SkillSet() {
     "Git",
     "Blender, Davinci Resolve",
     "Apache, DNS, Domain Registration, FTP, CloudFlare",
-    "Java, Unreal Engine, Wireframing"
+    "Java, Unreal Engine, Wireframing",
   ];
   const SkillData = [];
 
@@ -37,39 +37,30 @@ function SkillSet() {
         <td class="px-6 py-4 text-sm font-bold text-gray-900">
           {SkillsetText}
         </td>
-        <td class="px-6 py-4 text-sm font-medium text-gray-900">
-          {data}
-        </td>
+        <td class="px-6 py-4 text-sm font-medium text-gray-900">{data}</td>
       </tr>
     );
   });
 
   return (
-
-      <div class="flex justify-center overflow-x-auto">
-        <table class="container my-16 mx-auto">
-          <thead class="border-b bg-red-900">
-            <tr>
-              <th
-                scope="col"
-                class="px-6 py-4 text-sm font-medium text-white text-bold"
-              >
-                Skillset
-              </th>
-              <th
-                scope="col"
-                class="px-6 py-4 text-sm font-medium text-white"
-              >
-                Skill
-              </th>
-            </tr>
-          </thead>
-          <tbody>{SkillData}</tbody>
-        </table>
-      </div>
-
-
-
+    <div class="flex justify-center overflow-x-auto">
+      <table class="container my-16 mx-auto">
+        <thead class="border-b bg-red-900">
+          <tr>
+            <th
+              scope="col"
+              class="px-6 py-4 text-sm font-medium text-white text-bold"
+            >
+              Skillset
+            </th>
+            <th scope="col" class="px-6 py-4 text-sm font-medium text-white">
+              Skill
+            </th>
+          </tr>
+        </thead>
+        <tbody>{SkillData}</tbody>
+      </table>
+    </div>
   );
 }
 
